@@ -185,7 +185,7 @@ class GuestUserPlugin extends Omeka_Plugin_AbstractPlugin
 
     public function filterPublicShowAdminBar($show)
     {
-        return true;
+        return false;
     }
 
     public function filterAdminNavigationMain($navLinks)
